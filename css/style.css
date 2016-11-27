@@ -1,0 +1,74 @@
+body {
+	background-color: blue;
+	background-image: url(../images/pic.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+.main {
+	background-color: rgba(255,255,255,0.8);
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 10px 20px;
+	border-radius: 30px;
+	font-family: 'Gloria Hallelujah', cursive;
+	box-shadow: 20px 20px 20px 2px azure;
+}
+
+h1 {text-align: center;
+	font-size: 20px
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h2 {text-align: center;
+	font-weight: normal;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30%;
+	border: 20px dashed navy;
+	padding: 3px;
+	background-color: blue
+	
+}
+
+h3 {
+	font-size: 20px
+}
+
+h3:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}  
+
+/*Hide anything (*) immediately after (+) an h3 */
+h3 + * {
+	display: none;
+}
+
+p,
+ul,
+ol {line-height: 1.1;
+	padding-left: 15;
+}
+
+a {
+	font-weight: bold;
+	color:orange;
+	text-decoration: none;
+}	 
+
+a:hover {
+	color: pink
+	text-decoration: underline;
+}
+<div>
